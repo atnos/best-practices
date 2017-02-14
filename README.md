@@ -1,6 +1,6 @@
 # rubocop
 
-Our .rubocop.yml file at Atnos.
+Our .rubocop.yml file at Atnos inherit from http://relaxed.ruby.style
 
 # Style guide for Ruby
 
