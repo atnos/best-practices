@@ -3,6 +3,7 @@
 ## Auto correct a specific issue
 
 For example, you can fix a specific issue (here "Layout/EmptyLineAfterGuardClause") using this line:
+
 `rubocop --auto-correct-all --only Layout/EmptyLineAfterGuardClause`
 
 # Style guide for Ruby
