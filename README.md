@@ -1,6 +1,10 @@
 # RuboCop
 
-## RuboCop_todo.yml
+## .rubocop.yml
+
+TODO
+
+## .rubocop_todo.yml
 
 You can first generate a reporting of issues using:
 
