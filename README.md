@@ -1,10 +1,23 @@
 # RuboCop
 
+## RuboCop_todo.yml
+
+You can first generate a reporting of issues using:
+
+```
+bundle exec rubocop \                                
+  --auto-gen-config \
+  --auto-gen-only-exclude \
+  --no-exclude-limit
+  ```
+
 ## Auto correct a specific issue
 
-For example, you can fix a specific issue (here "Layout/EmptyLineAfterGuardClause") using this line:
+You can fix a specific issue using this line:
 
 `rubocop --auto-correct-all --only Layout/EmptyLineAfterGuardClause`
+
+In this example, `Layout/EmptyLineAfterGuardClause` is the issue we auto correct.
 
 # Style guide for Ruby
 
