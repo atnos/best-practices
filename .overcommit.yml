@@ -1,0 +1,13 @@
+PreCommit:
+  RuboCop:
+    enabled: true
+    on_warn: fail # Treat all warnings as failures
+  BundleAudit:
+    enabled: true
+    on_warn: fail
+
+
+PrePush:
+  Brakeman:
+    enabled: true
+    on_warn: fail
